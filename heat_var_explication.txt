@@ -1,0 +1,20 @@
+Age: âge du patient [années]
+Sexe : sexe du patient [M : Homme, F : Femme]
+ChestPainType: type de douleur thoracique [TA: angine typique, ATA: angine atypique, NAP: douleur non angineuse, ASY: asymptomatique]
+RestingBP: tension artérielle au repos [mm Hg]
+Cholestérol: cholestérol [mm/dl]
+FastingBS : glycémie à jeun [1 : si FastingBS > 120 mg/dl, 0 : sinon]
+ECG de repos: résultats de l'électrocardiogramme au repos [Normal: normal, ST: présentant une anomalie de l'onde ST-T (inversions de l'onde T et/ou élévation ou dépression ST > 0,05 mV), HVG: montrant une hypertrophie ventriculaire gauche probable ou certaine selon les critères d'Estes]
+MaxHR : fréquence cardiaque maximale atteinte [Valeur numérique entre 60 et 202]
+ExerciseAngine: angine induite par l'exercice [O: Oui, N: Non]
+Oldpeak: oldpeak = ST [Valeur numérique mesurée en dépression]
+ST_Slope: la pente du segment ST de l'exercice de pointe [Up: ascendant, Flat: plat, Down: descendant]
+HeartDisease: classe de sortie [1: maladie cardiaque, 0: Normal]
+
+919 lignes, 1 colonne à prédire qui est catégorie binaire, 11 variables explicatives
+
+Suppression d'une ligne -> 918 lignes
+
+5 quantiques + 6 qualitatives
+
+Recoder la variable cholestérole -> mettre les valeurs 0 à null

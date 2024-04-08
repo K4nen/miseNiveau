@@ -1,0 +1,36 @@
+X.csv : 
+Identifiant: Identifiant du client dans la Database
+ft_2_categ: année du sinistre [année en chiffre, exemple : 2014]
+EXPO: Durée d'assurance par Generali dans l'année [Une année complète = 1, 6 mois = 0,5]
+ft_4_categ: Caractéristique anonyme sur le bâtiment [0 ou 1]
+ft_5_categ: Caractéristique anonyme sur le bâtiment [V ou N]
+ft_6_categ: Caractéristique anonyme sur le bâtiment [V ou N]
+ft_7_categ: Caractéristique anonyme sur le bâtiment [V ou 1 ou 2 ou 3]
+ft_8_categ: Caractéristique anonyme sur le bâtiment [O ou V]
+ft_9_categ: Caractéristique anonyme sur le bâtiment [V ou 1]
+ft_10_categ: Caractéristique anonyme sur le bâtiment [O ou V]
+ft_11_categ: Caractéristique anonyme sur le bâtiment [N ou V]
+ft_12_categ: Caractéristique anonyme sur le bâtiment [N ou V ou O]
+ft_13_categ: Caractéristique anonyme sur le bâtiment [N ou V ou O]
+ft_14_categ: Caractéristique anonyme sur le bâtiment [N ou V ou O]
+ft_15_categ: Caractéristique anonyme sur le bâtiment [AUTRE ou V]
+ft_16_categ: Caractéristique anonyme sur le bâtiment [IDENTIQUE ou V]
+ft_17_categ: Caractéristique anonyme sur le bâtiment [N ou V ou O]
+ft_18_categ: Caractéristique anonyme sur le bâtiment [base ou pi ou v ou eff ou effpi]
+ft_19_categ: Caractéristique anonyme sur le bâtiment [2 ou 1]
+superficief: Taille en m2 du bâtiment assuré. [Variable numérique]
+ft_21_categ: Caractéristique anonyme sur le bâtiment [1 ou 2 ou 3 ou 4]
+ft_22_categ: Caractéristique anonyme sur le bâtiment, peut être année de construction du bâtiment [années, par exemple : 2012]
+ft_23_categ: Caractéristique anonyme sur le bâtiment [O ou O,3, ou O,6 ou V]
+ft_24_categ: Caractéristique anonyme sur le bâtiment [Valeurs numériques de 1 à 7 ou >= 10 ou .]
+Insee: Code INSEE, code numérique de 4 à 5 chiffres
+
+Y.csv : 
+Identifiant: Identifiant du bâtiment
+target: Présence de sinistre ou non, variable cible [1 : sinistre, 0 : pas de sinistre]
+
+
+10 230 Lignes pour les 2 fichiers.
+
+26 colonnes pour le fichier X.csv, 1 colonne à enlever car affiche le nombre de ligne dans le fichier -> 25 colonnes
+3 colonnes dans le fichier Y.csv, 1 colonne à enlever car affiche le nombre de ligne dans le fichier -> 2 colonnes
